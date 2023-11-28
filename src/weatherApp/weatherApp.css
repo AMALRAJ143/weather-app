@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#wholeContainer{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#bg1{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    z-index: -2;
+    object-fit: cover;
+    opacity: 0.2;
+}
+#bg2{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    z-index: -1;
+    object-fit: cover;
+    opacity:1;
+}
+#weatherInput{
+    width: 400px;
+    height: 400px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    position: relative;
+    border: 2px solid black;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    background-color: white;
+}
+#contentDiv{
+    width: 400px;
+    height: 400px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    position: relative;
+    border: 2px solid black;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    background-color: white;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:50px auto;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    font-size: 100px;
+    color:dodgerblue;
+    background-color: greenyellow;
+}
+.heading{
+    margin-top: 50px;
+}
+.cityName{
+    padding: 10px;
+    margin-top: 10px;
+}
+#inputt{
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 5px 5px 4px 1px rgba(0,0,0,0.68);
+    outline: #093028;
+}
+#buttonn{
+    margin-left: 10px;
+    padding: 15px;
+    border-radius: 8px;
+    background-color: #8EC5FC;
+    color: white;
+    border: none;
+    box-shadow: 5px 5px 4px 1px rgba(0,0,0,0.68);
+    cursor: pointer;
+}
+#copyright{
+    position: absolute;
+    bottom: 0;
+    right: 10px;
+    font-variant: small-caps;
+    color: #8EC5FC;
+    font-weight: 500;
+}
+
+.content{
+    color: red;
+}
+.time1{
+    display: block;
+}
+.time2{
+    display: block;
+    font-size: larger;
+    font-weight: 900;
+}
+#report{
+    margin-top: 20px;
+}
+#icon{
+    font-size: 30px;
+    color: #8EC5FC;
+}
