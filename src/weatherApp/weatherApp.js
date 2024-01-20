@@ -56,6 +56,7 @@ function WeatherApp() {
         <>
         <video src={bg} autoPlay muted loop id='bg2'/>
         <div id='contentDiv'>
+          <div className='opacity'></div>
         <div id='copyright'>
         @Amalraj
         </div>
@@ -78,6 +79,7 @@ function WeatherApp() {
       </>
       ):(
         <div id='weatherInput'>
+        <div className='opacity'></div>
         <div className='heading'>
           <h1 >Weather App</h1>
         </div>
